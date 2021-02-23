@@ -125,6 +125,7 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="README.md" />
     <None Include="Resources\answer_true.png" />
   </ItemGroup>
   <ItemGroup>
