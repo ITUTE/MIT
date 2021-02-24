@@ -63,9 +63,9 @@ namespace MIT.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap answer_true {
+        internal static System.Drawing.Bitmap false_answer {
             get {
-                object obj = ResourceManager.GetObject("answer_true", resourceCulture);
+                object obj = ResourceManager.GetObject("false_answer", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -125,6 +125,16 @@ namespace MIT.Properties {
         internal static System.IO.UnmanagedMemoryStream timeSound {
             get {
                 return ResourceManager.GetStream("timeSound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap true_answer {
+            get {
+                object obj = ResourceManager.GetObject("true_answer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

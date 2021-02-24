@@ -31,14 +31,20 @@ namespace MIT
             switch (msgType)
             {
                 case MsgType.CorrectAnswer:
-                    picThumbnail.BackgroundImage = Properties.Resources.answer_true;
+                    picThumbnail.BackgroundImage = Properties.Resources.true_answer;
                     lbTitle.Text = "Thông báo";
                     lbDescription.Text = "Xin chúc mừng! Bạn đã chọn đáp án đúng!";
-                    button1.Text = "OK";
-                    button2.Hide();
-                    button3.Hide();
+                    btnCenter.Text = "OK";
+                    btnRight.Hide();
+                    btnLeft.Hide();
                     break;
                 case MsgType.IncorrectAnswer:
+                    picThumbnail.BackgroundImage = Properties.Resources.false_answer;
+                    lbTitle.Text = "Thông báo";
+                    lbDescription.Text = "Rất tiếc! Bạn đã chọn đáp án sai!";
+                    btnCenter.Text = "OK";
+                    btnRight.Hide();
+                    btnLeft.Hide();
                     break;
                 case MsgType.Timeout:
                     break;

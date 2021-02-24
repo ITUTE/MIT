@@ -31,9 +31,9 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.picThumbnail = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnLeft = new System.Windows.Forms.Button();
+            this.btnRight = new System.Windows.Forms.Button();
+            this.btnCenter = new System.Windows.Forms.Button();
             this.lbTitle = new System.Windows.Forms.Label();
             this.lbDescription = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
@@ -76,9 +76,9 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel2.Controls.Add(this.button3, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.button2, 2, 0);
-            this.tableLayoutPanel2.Controls.Add(this.button1, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.btnLeft, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.btnRight, 2, 0);
+            this.tableLayoutPanel2.Controls.Add(this.btnCenter, 1, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 365);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -87,48 +87,48 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(426, 47);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
-            // button3
+            // btnLeft
             // 
-            this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Segoe UI Black", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Orange;
-            this.button3.Location = new System.Drawing.Point(3, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(136, 41);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnLeft.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnLeft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLeft.Font = new System.Drawing.Font("Segoe UI Black", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLeft.ForeColor = System.Drawing.Color.Orange;
+            this.btnLeft.Location = new System.Drawing.Point(3, 3);
+            this.btnLeft.Name = "btnLeft";
+            this.btnLeft.Size = new System.Drawing.Size(136, 41);
+            this.btnLeft.TabIndex = 2;
+            this.btnLeft.Text = "button3";
+            this.btnLeft.UseVisualStyleBackColor = true;
+            this.btnLeft.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button2
+            // btnRight
             // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI Black", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Crimson;
-            this.button2.Location = new System.Drawing.Point(287, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(136, 41);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnRight.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnRight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRight.Font = new System.Drawing.Font("Segoe UI Black", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRight.ForeColor = System.Drawing.Color.Crimson;
+            this.btnRight.Location = new System.Drawing.Point(287, 3);
+            this.btnRight.Name = "btnRight";
+            this.btnRight.Size = new System.Drawing.Size(136, 41);
+            this.btnRight.TabIndex = 1;
+            this.btnRight.Text = "button2";
+            this.btnRight.UseVisualStyleBackColor = true;
+            this.btnRight.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button1
+            // btnCenter
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI Black", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Navy;
-            this.button1.Location = new System.Drawing.Point(145, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 41);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnCenter.BackColor = System.Drawing.Color.Transparent;
+            this.btnCenter.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnCenter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCenter.Font = new System.Drawing.Font("Segoe UI Black", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCenter.ForeColor = System.Drawing.Color.Navy;
+            this.btnCenter.Location = new System.Drawing.Point(145, 3);
+            this.btnCenter.Name = "btnCenter";
+            this.btnCenter.Size = new System.Drawing.Size(136, 41);
+            this.btnCenter.TabIndex = 0;
+            this.btnCenter.Text = "button1";
+            this.btnCenter.UseVisualStyleBackColor = false;
+            this.btnCenter.Click += new System.EventHandler(this.button1_Click);
             // 
             // lbTitle
             // 
@@ -180,9 +180,9 @@
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnLeft;
+        private System.Windows.Forms.Button btnRight;
+        private System.Windows.Forms.Button btnCenter;
         private System.Windows.Forms.PictureBox picThumbnail;
         private System.Windows.Forms.Label lbTitle;
         internal System.Windows.Forms.Label lbDescription;

@@ -126,7 +126,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
-    <None Include="Resources\answer_true.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\iconfaculty2.ico" />
@@ -157,6 +156,12 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\true_answer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\false_answer.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
